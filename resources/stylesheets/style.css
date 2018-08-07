@@ -1,0 +1,78 @@
+/* Header */
+body {
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  height: 80px;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+.logo img {
+  margin-right: 12px;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+nav span {
+  padding: 20px 10px;
+  display: inline-block;
+}
+
+nav span a {
+  color: black;
+}
+
+
+/* I need to apply the flex properties to the flex items in the flex containter */
+
+/* Main Content */
+.column {
+  position: relative;
+  top: 80px;
+  width: 1200px;
+  margin: 0px auto;
+  padding-top: 116px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.column .large {
+  border: 1px solid black;
+  display: flex;
+  width: 630px;
+}
+
+.column .medium {
+  border: 2px solid black;
+  display: flex;
+  width: 300px;
+}
+
+.column .small {
+  border: 1px solid black;
+  display: flex;
+  width: 240px;
+}
