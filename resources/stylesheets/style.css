@@ -94,6 +94,7 @@ nav span a {
 
 #leadstory {
   font-size: 40px;
+  padding: 20px;
 }
 
 .lead-story.image-content {
@@ -102,6 +103,8 @@ nav span a {
 }
 
 .image-content {
+  display: flex;
+  align-items: center;
   height: 300px;
   margin-top: 15px;
   font-family: Georgia;
@@ -159,4 +162,32 @@ p {
 
 .large.story {
   flex-direction: row;
+}
+
+footer {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 325px;
+    background-color: MediumAquamarine;
+    margin: auto;
+    font-family: Verdana;
+    font-size: 12px;
+}
+
+footer .title {
+  display: inline-block;
+    padding-right: 25px;
+    border-right: 2px solid white;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
 }
